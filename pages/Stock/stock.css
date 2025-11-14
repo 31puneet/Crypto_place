@@ -1,0 +1,10 @@
+ .stock-detail{ padding:40px; }
+ .stock-name{ display:flex; align-items:center; gap:16px }
+ .stock-name img{ width:64px; height:64px; object-fit:contain }
+ .stock-chart{ margin-top:24px; height:320px }
+ .stock-info{ display:flex; gap:24px; margin-top:24px }
+ .stock-info ul{ list-style:none; padding:0 }
+ .table-link{ text-decoration:none; color:inherit }
+ .spinner{ display:flex; align-items:center; justify-content:center; height:320px }
+ .spin{ width:48px; height:48px; border-radius:50%; border:6px solid rgba(255,255,255,0.2); border-top-color:#7c3aed; animation:spin 1s linear infinite }
+ @keyframes spin{ to{ transform:rotate(360deg) } }
